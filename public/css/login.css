@@ -1,0 +1,23 @@
+main{
+    background-color: #ebebeb;
+    height: 40%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    gap: 15px;
+}
+input{
+    width: 70vw;
+    padding: 10px;
+    border: none;
+}
+.enviar{
+    background-color: #1259c3;
+    color: white;
+    transition: all 0.5s;
+}
+.enviar:hover{
+    background-color: #0022AA;
+}

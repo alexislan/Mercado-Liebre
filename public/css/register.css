@@ -1,0 +1,15 @@
+main{
+    background-color: #ebebeb;
+    height: 40%;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    gap: 15px;
+}
+main form .Testo{
+    width: 70vw;
+    padding: 10px;
+    border: none;
+}
