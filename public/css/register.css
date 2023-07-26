@@ -13,3 +13,13 @@ main form .Testo{
     padding: 10px;
     border: none;
 }
+.enviar{
+    background-color: #1259c3;
+    color: white;
+    transition: all 0.5s;
+    border: none;
+    padding: 10px;
+}
+.enviar:hover{
+    background-color: #0022AA;
+}

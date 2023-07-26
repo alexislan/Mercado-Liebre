@@ -141,9 +141,6 @@ main section article i{
     top: -15px;
     transition: all 0.5s;
 }
-main section article i:hover{
-    transform: rotateZ(360deg);
-}
 .precio{
     font-size: 18px;
 }
@@ -154,19 +151,25 @@ main section article i:hover{
 main article .nombre{
     color: #666;
 }
-footer i{
+footer{
+    padding: 15px;
+    text-align: center;
+}
+footer .infor section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+footer .infor section i{
+    color: #1259c3;
     font-size: 24px;
 }
-footer b{
+footer .infor section b{
     color: #666;
 }
 footer p{
     font-size: 12px;
     color: #666;
-}
-footer{
-    padding: 15px;
-    text-align: center;
 }
 
 @media (min-width: 480px){
@@ -236,7 +239,8 @@ footer{
     }
     main section{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wra
+        p;
         flex-direction: row;
         justify-content: space-around;
     }
@@ -248,11 +252,31 @@ footer{
     main article:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+    main section article:hover i{
+        transform: rotateZ(270deg);
+    }
     main section article .nombre{
         color: transparent;
         transition: all 0.5s;
     }
-    main section article .nombre:hover{
+    main section article:hover .nombre{
         color: #666;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .infor{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+        gap: 50px;
+    }
+    footer section{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .infor section i:hover{
+        color: #39b54a;
     }
 }
